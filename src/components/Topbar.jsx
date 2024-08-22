@@ -3,43 +3,41 @@ import React from 'react';
 const Topbar = () => {
   return (
     <header>
-      <div className='flex items-center justify-center gap-4 border-b border-solid border-black-85'>
-        <div className="flex">
-          <p className='text-[20px] font-medium text-black'>Home</p>
+      <div className="flex items-center justify-center  gap-4 border-b border-solid border-slate-300 py-1.5 px-2">
+        <div className="flex w-1/3">
+          <p className="text-[20px] font-medium text-black">Home</p>
         </div>
-        <div className='text-[14px] h-[40px] flex justify-center items-center gap-2 border rounded border-solid border-slate-300 bg-black-95 px-3.5 text-black-50 shadow-xs'>
-        <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="gray"
-                    className="w-6 h-6 mr-2"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                    />
-                  </svg>
-          <input type="text" placeholder="Search features, tutorials, etc." />
+        <div className="text-[14px] w-1/3 h-[40px] flex justify-center items-center gap-2 border rounded border-solid border-slate-300  px-3.5 text-black shadow-lg bg-gray-100">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="gray"
+            className="w-6 h-6 mr-2"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+          <input type="text" placeholder="Search features, tutorials, etc." className='w-full outline-none bg-gray-100 text-gray-500' />
         </div>
-        <div className="w-[30%] flex justify-end ">
+        <div className="w-1/3 flex justify-end ">
           <div class="w-[64%] flex justify-end gap-3 md:w-full">
             <div class="flex flex-1 items-center justify-end gap-5">
               <div class="flex flex-1 items-center justify-end gap-1.5">
-                <a href="#">
-                  
-                </a>
+                <a href="#"> </a>
                 <div class="flex flex-1 items-center justify-end gap-5">
                   <p class="size-body_2_medium text ui text-[14px] self-end font-medium !text-black-30">
                     Need help?
                   </p>
-                  <div class="h-[24px] w-px bg-black-85"></div>
+                  <div class="h-[24px] w-[1px] bg-slate-300"></div>
                 </div>
               </div>
               <a href="#">
-                <button class="rounded-[20px] w-[40px] h-[40px] flex items-center justify-center bg-black-90 px-2">
+                <button class="rounded-[20px] w-[40px] h-[40px] flex items-center justify-center bg-slate-300 px-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -58,13 +56,13 @@ const Topbar = () => {
               </a>
             </div>
             <a href="#">
-              <button class="rounded-[20px] w-[40px] h-[40px] flex items-center justify-center bg-blue-800_19 px-2">
+              <button class="rounded-[20px] w-[40px] h-[40px] flex items-center justify-center bg-blue-200 px-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
-                  stroke="currentColor"
+                  stroke="blue  "
                   class="size-6"
                 >
                   <path
